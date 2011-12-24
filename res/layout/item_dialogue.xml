@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="190dp"
+  android:background="@drawable/back">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="190dp" 
+    	android:id="@+id/linearLayout1" android:background="@drawable/frame2">
+        <ImageView android:id="@+id/itemIcon" android:layout_width="128dp" 
+        	android:layout_height="128dp" 
+        	android:layout_marginTop="30dp" android:layout_marginLeft="40dp"></ImageView>
+        <TextView android:textColor="#ff0000" android:text="TextView" android:layout_width="match_parent" 
+        	android:id="@+id/itemDescript" android:layout_marginTop="30dp" android:layout_marginLeft="20dp"
+        	android:layout_height="match_parent" android:layout_marginBottom="30dp"
+        	android:layout_toRightOf="@id/itemIcon" android:layout_toLeftOf="@+id/throw_btn"></TextView>
+        <Button android:id="@+id/throw_btn" android:layout_height="64dp" android:layout_width="64dp"
+        	android:text="Throw" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+        	android:layout_marginBottom="20dp" android:layout_marginRight="40dp"
+        	android:background="@drawable/delete" android:textStyle="bold"
+        	android:textColor="#ff0000"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>
