@@ -25,7 +25,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:src="@drawable/link_red" />
+                android:src="@drawable/spir1" />
 
             <Button
                 android:id="@+id/refresh"
@@ -33,7 +33,7 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:text="Refresh" />
+                android:text="Refresh" android:textSize="40sp"/>
 
             <Button
                 android:id="@+id/back"
@@ -41,7 +41,7 @@
                 android:layout_height="fill_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:text="Back" />
+                android:text="Back" android:textSize="40sp"/>
 
         </LinearLayout>
     
