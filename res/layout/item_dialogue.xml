@@ -3,10 +3,9 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
   android:layout_width="match_parent"
-  android:layout_height="190dp"
-  android:background="@drawable/back">
+  android:layout_height="190dp">
     <RelativeLayout android:layout_width="match_parent" android:layout_height="190dp" 
-    	android:id="@+id/linearLayout1" android:background="@drawable/frame2">
+    	android:id="@+id/linearLayout1" android:background="@drawable/frame5">
         <ImageView android:id="@+id/itemIcon" android:layout_width="128dp" 
         	android:layout_height="128dp" 
         	android:layout_marginTop="30dp" android:layout_marginLeft="40dp"></ImageView>

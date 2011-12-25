@@ -11,7 +11,7 @@ public class DrawableIndex {
 	
 	public static void setDrawables(int set){
 		switch(set){
-		case 0:
+		/*case 0:
 			BACK_GROUND = R.drawable.bgd;
 			LIST_BACK_GROUND = R.drawable.lbgd;
 			break;
@@ -42,9 +42,9 @@ public class DrawableIndex {
 		case 7:
 			BACK_GROUND = R.drawable.bgy;
 			LIST_BACK_GROUND = R.drawable.lbgy;
-			break;
+			break;*/
 		default:
-			BACK_GROUND = R.drawable.bgd;
+			BACK_GROUND = R.drawable.background2;
 			LIST_BACK_GROUND = R.drawable.lbgd;
 		}
 	}
